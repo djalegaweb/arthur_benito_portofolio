@@ -1,2 +1,177 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('0 K=L(\'K\');0 a=L(\'a\');0 j=L(\'j\');0 t=L(\'t\');0 T=L(\'T\');0 9=K();0 1e=30;0 I=j.O(N,\'18\',\'3.7\');9.1L(K.7());9.1L(K.2Z(j.O(N,\'M\')));S 1F(u,f=t.1s(16).H(\'P\')){0 w=t.1K(u,f,1J,1I,\'1H\').H(\'P\');A{f,w}}S 1u(u,f,1G){0 w=t.1K(u,f,1J,1I,\'1H\').H(\'P\');A w===1G}S 1B(){c(!a.Y(I)){0{f,w}=1F(\'2Y:#\');0 1C={Q:{R:\'2X\',f:f,1t:w},h:{2W:\'2V Bé2U\',2T:\'2S 2R 2Qé2Pé 2O 2N 2M, 1E 2L 1D 1E 2K évé2J. 2I l’2H 2G é2F 1D 2Eé2D.\',2C:\'2B@2A.2z\',2y:\'+2x J J J J J\'},6:[]};a.1A(I,19.1z(1C,U,2))}}1B();0 m=()=>19.2w(a.2v(I,\'2u-8\'));0 x=(18)=>a.1A(I,19.1z(18,U,2));0 1w=T.2t({2s:(4,q,V)=>V(U,\'M/10/\'),Z:(4,q,V)=>{0 1x=15.1o()+\'-\'+1y.2r(1y.2q()*2p);V(U,1x+j.2o(q.2n))}});0 13=T({1w});0 17=1n 2m();S C(4,5,1v){0 s=4.2l[\'2k\'];c(s&&17.2j(s)){1v()}1r{5.z(1q).7({y:\'2i 2hé. 2g 2f 2e.\'})}}9.1p(\'/r/2d\',(4,5)=>{0{R,u}=4.g;0 3=m();c(R===3.Q.R&&1u(u,3.Q.f,3.Q.1t)){0 s=t.1s(2c).H(\'P\');17.2b(s);5.7({s})}1r{5.z(1q).7({y:\'2a 29\'})}});9.28(\'/r/27\',(4,5)=>{0 3=m();5.7({h:3.h,6:3.6})});9.1m(\'/r/h\',C,(4,5)=>{0 3=m();3.h={...3.h,...4.g};x(3);5.7({1f:\'26 25 à 24\',h:3.h})});9.1p(\'/r/6\',C,13.1l(\'12\'),(4,5)=>{c(!4.q)A 5.z(23).7({y:\'22 12 21\'});0 3=m();0 14={k:15.1o().H(),F:4.g.F||\'20 1Z\',E:4.g.E||\'Géné1Y\',D:4.g.D||\'\',i:`/10/${4.q.Z}`,1X:1n 15().1W()};3.6.1V(14);x(3);5.7(14)});9.1m(\'/r/6/:k\',C,13.1l(\'12\'),(4,5)=>{0 3=m();0 b=3.6.1k(p=>p.k===4.1j.k);c(b===-1)A 5.z(1i).7({y:\'W 1h\'});0 o=3.6[b];1U i=o.i;c(4.q){0 11=j.O(N,\'M\',o.i);c(a.Y(11))a.1g(11);i=`/10/${4.q.Z}`}3.6[b]={...o,F:4.g.F??o.F,E:4.g.E??o.E,D:4.g.D??o.D,i};x(3);5.7(3.6[b])});9.1T(\'/r/6/:k\',C,(4,5)=>{0 3=m();0 b=3.6.1k(p=>p.k===4.1j.k);c(b===-1)A 5.z(1i).7({y:\'W 1h\'});0 X=j.O(N,\'M\',3.6[b].i);c(a.Y(X))a.1g(X);3.6.1S(b,1);x(3);5.7({1f:\'W 1Rée\'})});9.1Q(1e,()=>{1d.1c(`1P dé1Oé1b 1a:1d.1c(`1N 1M 1b 1a:});',62,187,'const|||db|req|res|photos|json||app|fs|index|if|||salt|body|profile|imageUrl|path|id||readDB||oldPhoto||file|api|token|crypto|password||hash|writeDB|error|status|return||requireAuth|description|category|title||toString|DB_PATH|00|express|require|public|__dirname|join|hex|admin|username|function|multer|null|cb|Photo|filePath|existsSync|filename|uploads|oldPath|image|upload|newPhoto|Date||activeTokens|data|JSON|http|sur|log|console|PORT|message|unlinkSync|introuvable|404|params|findIndex|single|put|new|now|post|401|else|randomBytes|passwordHash|verifyPassword|next|storage|uniqueSuffix|Math|stringify|writeFileSync|initDB|initialData|et|la|hashPassword|originalHash|sha512|64|1000|pbkdf2Sync|use|disponible|Admin|marr|Serveur|listen|supprim|splice|delete|let|unshift|toISOString|createdAt|ral|titre|Sans|fournie|Aucune|400|jour|mis|Profil|portfolio|get|incorrects|Identifiants|add|32|login|connecter|vous|Veuillez|autoris|Non|has|authorization|headers|Set|originalname|extname|1E9|random|round|destination|diskStorage|utf|readFileSync|parse|225|phone|com|arthurbenito|contact|email|cision|pr|motion|avec|instant|Capturer|nementielle|photographie|mode|portrait|le|dans|cialis|sp|professionnel|Photographe|bio|nito|Arthur|name|arthur|Arthur2026xxx|static|3000'.split('|'),0,{}))
+const express = require('express');
+const fs = require('fs');
+const path = require('path');
+const crypto = require('crypto');
+const multer = require('multer');
 
+const app = express();
+const PORT = 3000;
+const DB_PATH = path.join(__dirname, 'data', 'db.json');
+
+app.use(express.json());
+app.use(express.static(path.join(__dirname, 'public')));
+
+
+function hashPassword(password, salt = crypto.randomBytes(16).toString('hex')) {
+    const hash = crypto.pbkdf2Sync(password, salt, 1000, 64, 'sha512').toString('hex');
+    return { salt, hash };
+}
+
+
+function verifyPassword(password, salt, originalHash) {
+    const hash = crypto.pbkdf2Sync(password, salt, 1000, 64, 'sha512').toString('hex');
+    return hash === originalHash;
+}
+
+// Initialisation de la base de données JSON si elle n'existe pas
+function initDB() {
+    if (!fs.existsSync(DB_PATH)) {
+       
+        const { salt, hash } = hashPassword('Arthur2026xxx:#');
+        const initialData = {
+            admin: {
+                username: 'arthur',
+                salt: salt,
+                passwordHash: hash
+            },
+            profile: {
+                name: 'Arthur Bénito',
+                bio: 'Photographe professionnel spécialisé dans le portrait, la mode et la photographie événementielle. Capturer l’instant avec émotion et précision.',
+                email: 'contact@arthurbenito.com',
+                phone: '+225 00 00 00 00 00'
+            },
+            photos: []
+        };
+        fs.writeFileSync(DB_PATH, JSON.stringify(initialData, null, 2));
+    }
+}
+initDB();
+
+// Lecture / Écriture JSON
+const readDB = () => JSON.parse(fs.readFileSync(DB_PATH, 'utf-8'));
+const writeDB = (data) => fs.writeFileSync(DB_PATH, JSON.stringify(data, null, 2));
+
+// Configuration Multer pour l'upload d'images
+const storage = multer.diskStorage({
+    destination: (req, file, cb) => cb(null, 'public/uploads/'),
+    filename: (req, file, cb) => {
+        const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9);
+        cb(null, uniqueSuffix + path.extname(file.originalname));
+    }
+});
+const upload = multer({ storage });
+
+// Stockage simple des tokens de session en mémoire
+const activeTokens = new Set();
+
+// Middleware d'authentification
+function requireAuth(req, res, next) {
+    const token = req.headers['authorization'];
+    if (token && activeTokens.has(token)) {
+        next();
+    } else {
+        res.status(401).json({ error: 'Non autorisé. Veuillez vous connecter.' });
+    }
+}
+
+// --- ROUTES API ---
+
+// 1. Connexion Admin
+app.post('/api/login', (req, res) => {
+    const { username, password } = req.body;
+    const db = readDB();
+
+    if (username === db.admin.username && verifyPassword(password, db.admin.salt, db.admin.passwordHash)) {
+        const token = crypto.randomBytes(32).toString('hex');
+        activeTokens.add(token);
+        res.json({ token });
+    } else {
+        res.status(401).json({ error: 'Identifiants incorrects' });
+    }
+});
+
+// 2. Récupérer toutes les données publiques (Profil + Photos)
+app.get('/api/portfolio', (req, res) => {
+    const db = readDB();
+    res.json({
+        profile: db.profile,
+        photos: db.photos
+    });
+});
+
+// 3. Mettre à jour le profil (Bio, contact)
+app.put('/api/profile', requireAuth, (req, res) => {
+    const db = readDB();
+    db.profile = { ...db.profile, ...req.body };
+    writeDB(db);
+    res.json({ message: 'Profil mis à jour', profile: db.profile });
+});
+
+// 4. Ajouter une photo
+app.post('/api/photos', requireAuth, upload.single('image'), (req, res) => {
+    if (!req.file) return res.status(400).json({ error: 'Aucune image fournie' });
+
+    const db = readDB();
+    const newPhoto = {
+        id: Date.now().toString(),
+        title: req.body.title || 'Sans titre',
+        category: req.body.category || 'Général',
+        description: req.body.description || '',
+        imageUrl: `/uploads/${req.file.filename}`,
+        createdAt: new Date().toISOString()
+    };
+
+    db.photos.unshift(newPhoto); // Ajoute au début
+    writeDB(db);
+    res.json(newPhoto);
+});
+
+// 5. Modifier une photo (Titre, catégorie, description, ou nouvelle image)
+app.put('/api/photos/:id', requireAuth, upload.single('image'), (req, res) => {
+    const db = readDB();
+    const index = db.photos.findIndex(p => p.id === req.params.id);
+
+    if (index === -1) return res.status(404).json({ error: 'Photo introuvable' });
+
+    const oldPhoto = db.photos[index];
+    let imageUrl = oldPhoto.imageUrl;
+
+    // Si une nouvelle image est envoyée, supprimer l'ancienne du disque
+    if (req.file) {
+        const oldPath = path.join(__dirname, 'public', oldPhoto.imageUrl);
+        if (fs.existsSync(oldPath)) fs.unlinkSync(oldPath);
+        imageUrl = `/uploads/${req.file.filename}`;
+    }
+
+    db.photos[index] = {
+        ...oldPhoto,
+        title: req.body.title ?? oldPhoto.title,
+        category: req.body.category ?? oldPhoto.category,
+        description: req.body.description ?? oldPhoto.description,
+        imageUrl
+    };
+
+    writeDB(db);
+    res.json(db.photos[index]);
+});
+
+// 6. Supprimer une photo
+app.delete('/api/photos/:id', requireAuth, (req, res) => {
+    const db = readDB();
+    const index = db.photos.findIndex(p => p.id === req.params.id);
+
+    if (index === -1) return res.status(404).json({ error: 'Photo introuvable' });
+
+    // Supprimer le fichier physique
+    const filePath = path.join(__dirname, 'public', db.photos[index].imageUrl);
+    if (fs.existsSync(filePath)) fs.unlinkSync(filePath);
+
+    db.photos.splice(index, 1);
+    writeDB(db);
+    res.json({ message: 'Photo supprimée' });
+});
+
+app.listen(PORT, () => {
+    console.log(`Serveur démarré sur http://localhost:${PORT}`);
+    console.log(`Admin disponible sur http://localhost:${PORT}/admin.html`);
+});
