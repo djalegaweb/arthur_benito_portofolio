@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back-Office — Arthur Bénito</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <a href="/" class="logo">Arthur <span>Admin</span></a>
+        <nav>
+            <a href="/">Voir le site</a>
+            <a href="#" id="logout-btn" style="display:none; color: var(--danger);">Déconnexion</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Écran de connexion -->
+        <div id="login-section" class="card" style="max-width: 400px; margin: 4rem auto;">
+            <h2 style="margin-bottom: 1.5rem;">Connexion Back-Office</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label>Identifiant</label>
+                    <input type="text" id="username" required value="arthur">
+                </div>
+                <div class="form-group">
+                    <label>Mot de passe</label>
+                    <input type="password" id="password" required>
+                </div>
+                <button type="submit" class="btn" style="width: 100%;">Se connecter</button>
+                <p id="login-error" style="color: var(--danger); margin-top: 1rem;"></p>
+            </form>
+        </div>
+
+        <!-- Tableau de bord (caché par défaut) -->
+        <div id="dashboard-section" style="display: none;">
+            
+            <!-- Section 1 : Modifier le profil -->
+            <div class="card">
+                <h2 style="margin-bottom: 1rem;">Informations du Profil</h2>
+                <form id="profile-form">
+                    <div class="form-group">
+                        <label>Nom affiché</label>
+                        <input type="text" id="prof-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Biographie</label>
+                        <textarea id="prof-bio" rows="3" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" id="prof-email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Téléphone</label>
+                        <input type="text" id="prof-phone" required>
+                    </div>
+                    <button type="submit" class="btn">Enregistrer le profil</button>
+                </form>
+            </div>
+
+            <!-- Section 2 : Ajouter / Modifier une photo -->
+            <div class="card">
+                <h2 id="form-photo-title" style="margin-bottom: 1rem;">Ajouter une photographie</h2>
+                <form id="photo-form">
+                    <input type="hidden" id="edit-photo-id">
+                    <div class="form-group">
+                        <label>Titre de l'œuvre</label>
+                        <input type="text" id="photo-title" required placeholder="Ex: Lumières d'Abidjan">
+                    </div>
+                    <div class="form-group">
+                        <label>Catégorie</label>
+                        <input type="text" id="photo-category" required placeholder="Ex: Portrait, Mode, Mariage...">
+                    </div>
+                    <div class="form-group">
+                        <label>Description</label>
+                        <textarea id="photo-desc" rows="2" placeholder="Histoire ou détails techniques..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label id="image-label">Fichier Image (obligatoire pour un ajout)</label>
+                        <input type="file" id="photo-file" accept="image/*">
+                    </div>
+                    <button type="submit" class="btn" id="submit-photo-btn">Publier la photo</button>
+                    <button type="button" class="btn btn-secondary" id="cancel-edit-btn" style="display:none;">Annuler la modification</button>
+                </form>
+            </div>
+
+            <!-- Section 3 : Liste des photos existantes -->
+            <div class="card">
+                <h2 style="margin-bottom: 1rem;">Gérer la galerie</h2>
+                <div class="admin-list" id="admin-photos-list"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/admin.js"></script>
+</body>
+</html>
